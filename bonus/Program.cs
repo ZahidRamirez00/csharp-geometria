@@ -2,7 +2,7 @@
 using Geometria;
 // ISTANZIO 1 rettangolo
 
-Rettangolo rettangolo1 = new Rettangolo();
+RettangoloBonus rettangolo1 = new RettangoloBonus();
 
 string myString = "";
 int intValue;
@@ -49,6 +49,7 @@ do
 rettangolo1.calcolaPerimetro();
 Console.Write("\n");
 rettangolo1.calcolaArea();
+Console.Write("\n\n");
 
-
+rettangolo1.disegnaRettangolo();
 

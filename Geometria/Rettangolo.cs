@@ -28,14 +28,5 @@ namespace Geometria
             Console.WriteLine("\nIl perimetro del rettangolo è: " + perimetroRettangolo + " cm");
         }
 
-
-        public void StampaAuto()
-        {
-            Console.WriteLine("Base: \t" + baseRettangolo + " cm");
-            Console.WriteLine("Altezza: \t" + altezzaRettangolo + " cm");
-            Console.WriteLine("Perimetro: \t" + perimetroRettangolo + " cm");
-            Console.WriteLine("Area: \t" + areaRettangolo + " cm2");
-        }
-
     }
 }
