@@ -33,12 +33,12 @@ namespace Geometria
         }
 
 
-        public void StampaAuto()
+        public void StampaRettangolo()
         {
-            Console.WriteLine("Base: \t" + baseRettangolo + " cm");
+            Console.WriteLine("Base: \t\t" + baseRettangolo + " cm");
             Console.WriteLine("Altezza: \t" + altezzaRettangolo + " cm");
             Console.WriteLine("Perimetro: \t" + perimetroRettangolo + " cm");
-            Console.WriteLine("Area: \t" + areaRettangolo + " cm2");
+            Console.WriteLine("Area: \t\t" + areaRettangolo + " cm2");
         }
 
         public void disegnaRettangolo()

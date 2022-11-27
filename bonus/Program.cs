@@ -49,6 +49,8 @@ do
 rettangolo1.calcolaPerimetro();
 Console.Write("\n");
 rettangolo1.calcolaArea();
+Console.Write("\n");
+rettangolo1.StampaRettangolo();
 Console.Write("\n\n");
 
 rettangolo1.disegnaRettangolo();
